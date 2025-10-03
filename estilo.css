@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+#cabecalho{
+    border: 0px solid rgb(196, 203, 221);
+    height: 100px;
+}
+#menu{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 45px;
+    background-color: rgb(141, 199, 247);
+    background-image: linear-gradient(to right, rgb(11, 11, 231), rgb(0, 162, 226));
+}
+
+#menu a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 18px;
+    margin: 3px;
+}  
+#menu a:hover{
+    color: rgb(136, 219, 87);
+    padding: 30px;
+    margin: 15px;
+}
+#menu li{
+    list-style-type: none;
+    display: inline;
+
+}
+
+.principal{
+    height: auto;
+    display: flex;
+    height: 500px;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    width: 70%;
+
+}
+
+.conteudo{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(255, 255, 255);    
+    
+}
+
+.img-proposito{
+    width: 40%;
+    margin: 0 auto;
+    
+}
+
+.img-proposito img{
+    width: 100%;
+}
+.text-proposito{
+    width: 60%;
+    text-align: left;
+}
+
+.img-galeria{
+    width: 100px;
+    height: 100px;
+    margin: 30px;
+}
+
+.img-galeria img{
+    width: 100%;
+    border-radius: 10px;
+    height: 100%;
+}
+
+.img-galeria img{
+    width: 110%;
+    border-radius: 8px;
+    height: 100%;
+}
+
